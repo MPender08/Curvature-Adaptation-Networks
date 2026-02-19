@@ -62,7 +62,7 @@ To escape that 5.0 tax, the optimizer aggressively shoves the internal weights o
 
 In the simulation, the healthy network does not return to a flat, Euclidean state (a curvature of absolute zero) after mastering a cognitive task. Instead, the interaction between the strict synaptic budget (`weight_decay`) and the SST-gate (`gamma`) establishes a resting equilibrium—a sustained curvature of 0.5.
 
-Rather than a mathematical artifact, this models a crucial biological mechanism: Basal Geometric Tone. Just as biological neurons must continuously burn energy to maintain a resting membrane potential to fire, the neural manifold must expend a baseline level of metabolic energy to maintain its structural readiness.
+This models a crucial biological mechanism: Basal Geometric Tone. Just as biological neurons must continuously burn energy to maintain a resting membrane potential to fire, the neural manifold must expend a baseline level of metabolic energy to maintain its structural readiness.
 
 ###  Modeling Cognitive Decline
 When the pathological model collapses into Euclidean space, it loses its ability to process deep hierarchies and nested concepts. It is left with only flat, surface-level associative capabilities. 
