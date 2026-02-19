@@ -91,7 +91,7 @@ To run the simulation and generate the phase transition graphs or the decision b
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/MPender08/Curvature-Adaptation-Networks.git
-   cd Curvature_Adaptation_Networks
+   cd Curvature-Adaptation-Networks
    ```
 2. **Install the required libraries:**
 This project relies on torch and geoopt (for Riemannian optimization and hyperbolic manifolds).
