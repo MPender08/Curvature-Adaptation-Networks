@@ -90,7 +90,7 @@ To run the simulation and generate the phase transition graphs or the decision b
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/MPender08/Curvature_Adpatation_Networks.git](https://github.com/MPender08/Curvature-Adaptation-Networks.git)
+   git clone https://github.com/MPender08/Curvature-Adaptation-Networks.git
    cd Curvature_Adaptation_Networks
    ```
 2. **Install the required libraries:**
