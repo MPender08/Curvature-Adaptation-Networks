@@ -133,3 +133,6 @@ When the pathological brain's geometry violently collapses under the metabolic t
 
 Both of these edge cases can be seen as Analysis Paralysis and Rote Memorization. The healthy brain had the hyperbolic shape to achieve 0 MSE Error, but it overthought the problem and froze. The pathological brain lost the ability to understand deep geometry, but through exhaustive, repetitive trial-and-error over a massive timeframe, it brute-forced a surface-level workaround. Note that a healthy brain usually achieves elegant mastery in <600 epochs, whereas the pathological brute-force workaround usually requires many more epochs of sheer computational exhaustion.
    
+## Acknowledgements 
+
+This author of this research used Gemini 3 Flash and Gemini 3 Pro during the creation of this simulation code.
