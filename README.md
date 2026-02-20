@@ -39,7 +39,7 @@ The network is caught in a tug-of-war: The **Metabolic Tax** pushes the brain to
 ![Brain Sim](brain_sim.png)
 
 ### 1. The Healthy Brain (Metabolic Parsimony)
-Under a low metabolic tax, the network willingly pays the energy cost to maintain a hyperbolic shape. It warps its geometry, bypasses the synaptic budget, and successfully masters complex logic (0 MSE Error). 
+In the left figure, under a low metabolic tax, the healthy digital brain(Green) willingly pays the energy cost to maintain a hyperbolic shape (0.5 curvature). It warps its geometry, bypasses the synaptic budget, and successfully masters complex logic (0 MSE Error, right graph). 
 
 Note in the right figure, once the healthy brain reaches 0 MSE Error, the `task_loss` gradient goes completely silent. The brain has achieved mastery and is now focusing on optimizing.
 
@@ -54,7 +54,7 @@ Think of a physical skill, like playing a complex piece on a piano. Once you mas
 ### 2. The Pathological Brain (Geometric Collapse)
 When the metabolic tax is set artificially high (simulating the metabolic deficits seen in Alzheimer's and other neurodegenerative diseases), the energy required to maintain hyperbolic space becomes mathematically prohibitive. The manifold experiences a **Geometric Collapse**, snapping back to flat, Euclidean space.
 
-The Alzheimer's digital brain has a metabolic tax rate that is 5,000 times heavier. If the Alzheimer's brain tries to rest at 0.5, it pays a massive penalty of `5.0 * (0.5^2)`. The AI optimizer looks at that massive energy drain and panics.
+The Alzheimer's digital brain(Red, dotted) has a metabolic tax rate that is 5,000 times heavier. If the Alzheimer's brain tries to rest at 0.5, it pays a massive penalty of `5.0 * (0.5^2)`. The AI optimizer looks at that massive energy drain and panics.
 
 To escape that 5.0 tax, the optimizer aggressively shoves the internal weights of the `sst_gate` deep into negative numbers. It fights against the `weight_decay` just to force the Sigmoid gate to output a 0.0, desperately trying to turn off the geometry to survive the crushing metabolic cost.
 
