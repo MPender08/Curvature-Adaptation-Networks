@@ -10,6 +10,9 @@ https://doi.org/10.5281/zenodo.18615180
 
 https://github.com/MPender08/dendritic-curvature-adaptation
 
+Here's another pre-print where I attempt to design a computer chip with an SST-like gating mechanism:
+
+https://doi.org/10.5281/zenodo.18718330
 
 
 ##  The Theory: Why Geometry Matters
